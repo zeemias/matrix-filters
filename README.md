@@ -1,1 +1,2 @@
-# matrix-filters
+# Matrix-filters
+Sobel, Robert, Gaus, Laplas, Noise
