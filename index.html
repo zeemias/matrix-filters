@@ -1,0 +1,34 @@
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta id="viewport" content="width=device-width, initial-scale=1">
+  <title>Matrix Filters and Noise</title>
+  <link rel="shortcut icon" href="img/favicon.ico">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <h1>Matrix Filters and Noise</h1>
+  <div class="booth left">
+	  <h2>Noise</h2>
+	  	<canvas id="canvas-noise" width="200" height="150"></canvas>
+	  <h2>Sobel</h2>
+	  	<canvas id="canvas-sobel" width="200" height="150"></canvas>
+	  <h2>Robert</h2>
+	  	<canvas id="canvas-robert" width="200" height="150"></canvas>
+  </div>
+  <div class="booth middle">
+	  	<video id="video" width="400" height="300" hidden></video>
+	  <h2>Video</h2>
+	  	<canvas id="canvas" width="400" height="300"></canvas>
+  </div>
+  <div class="booth">
+   	  <h2>Gaus</h2>
+	  	<canvas id="canvas-gaus" width="200" height="150"></canvas>
+	  <h2>Laplas</h2>
+	  	<canvas id="canvas-laplas" width="200" height="150"></canvas>
+	  <h2>D.OP</h2>
+	  	<canvas id="canvas-dop" width="200" height="150"></canvas>
+  </div>
+  <script src="js/main.js"></script>
+</body>
+</html>
